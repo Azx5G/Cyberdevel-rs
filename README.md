@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a simple Rust application template for Cyberdevel projects. It is intended to be used as a starting point for new projects.
+This is a simple Rust application for Cyberdevel.
 
 ## Requirements
 

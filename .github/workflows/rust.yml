@@ -20,6 +20,12 @@ jobs:
       run: cargo build --verbose
     - name: Run tests
       run: cargo test --verbose
+    - name: Upload all workflow run artifacts
+      uses: actions/upload-artifact@v2
+      with:
+          name: Linux artifacts
+          path: |
+            target/debug/
     - name: Download all workflow run artifacts
       uses: actions/download-artifact@v3
 
@@ -34,6 +40,12 @@ jobs:
       run: cargo build --verbose
     - name: Run tests
       run: cargo test --verbose
+    - name: Upload all workflow run artifacts
+      uses: actions/upload-artifact@v2
+      with:
+              name: Windows artifacts
+              path: |
+                target/debug/
     - name: Download all workflow run artifacts
       uses: actions/download-artifact@v3
       
@@ -47,5 +59,11 @@ jobs:
       run: cargo build --verbose
     - name: Run tests
       run: cargo test --verbose
+    - name: Upload all workflow run artifacts
+      uses: actions/upload-artifact@v2
+      with:
+               name: macOS artifacts
+               path: |
+                    target/debug/
     - name: Download all workflow run artifacts
       uses: actions/download-artifact@v3  

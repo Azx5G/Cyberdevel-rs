@@ -7,7 +7,7 @@ This is the desktop application for Cyberdevel written in Rust.
 
 ## Requirements
 
-- A working computer lol. (Windows (7+), Linux, macOS (10.15+))
+- Windows 7 or later, Linux or macOS 10.15 or later
 - Rust programming language environment
 
 ## Installation and Compilation

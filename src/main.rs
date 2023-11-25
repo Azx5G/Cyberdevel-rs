@@ -1,4 +1,4 @@
-// Code: CyberdevelApp
+// Code: Cyberdevel-rs
 // Copyright: Cyberdevel, 2023
 // License: MIT
 

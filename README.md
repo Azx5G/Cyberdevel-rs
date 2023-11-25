@@ -1,9 +1,9 @@
 
-# Cyberdevel Simple Rust Application
+# Cyberdevel's Desktop Application
 
 ## Overview
 
-This is a simple Rust application for Cyberdevel.
+This is the desktop application for Cyberdevel written in Rust.
 
 ## Requirements
 

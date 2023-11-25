@@ -20,6 +20,9 @@ jobs:
       run: cargo build --verbose
     - name: Run tests
       run: cargo test --verbose
+    - name: Download all workflow run artifacts
+      uses: actions/download-artifact@v3
+
   
   windows:
     
@@ -31,7 +34,9 @@ jobs:
       run: cargo build --verbose
     - name: Run tests
       run: cargo test --verbose
-
+    - name: Download all workflow run artifacts
+      uses: actions/download-artifact@v3
+      
   macos:
 
     runs-on: windows-latest
@@ -42,4 +47,5 @@ jobs:
       run: cargo build --verbose
     - name: Run tests
       run: cargo test --verbose
-  
+    - name: Download all workflow run artifacts
+      uses: actions/download-artifact@v3  

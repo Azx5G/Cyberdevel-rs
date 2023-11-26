@@ -8,9 +8,15 @@ This is the desktop application for Cyberdevel written in Rust.
 ## Requirements
 
 - Windows 7 or later, Linux or macOS 10.15 or later
-- Rust programming language environment
+- Rust programming language environment (for compiling the application, not needed for running it from pre-compiled binaries)
 
-## Installation and Compilation
+## Installation and Building
+
+### Running the application
+
+- Go to the [releases page](https://github.com/Azx5G/Cyberdevel-rs/releases) and download the latest release for your operating system to run the app.
+
+### Building from source
 
 ### Installing Rust
 

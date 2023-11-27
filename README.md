@@ -22,6 +22,22 @@ This is the desktop application for Cyberdevel written in Rust.
 
 To compile this project, you need to have Rust and Cargo installed on your system. If you don't have them installed, follow these steps:
 
+#### Using the script
+
+- Requirements : 
+1. Python >=3 installed on your system
+2. Internet Access
+3. Administrator Access
+
+Simply execute the installrust.py script with
+   ```
+python3 installrust.py
+   ```
+or
+   ```
+py -3 installrust.py
+   ```
+
 #### Windows
 
 1. Download and run the Rust installer from [the official Rust website](https://www.rust-lang.org/tools/install).

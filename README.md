@@ -37,6 +37,7 @@ or
    ```
 py -3 installrust.py
    ```
+#### Manual Installation
 
 #### Windows
 

@@ -71,7 +71,7 @@ This is only a test application. It does not have any real functionality.
 
 ## License
 
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- **[GPL 3.0]([https://opensource.org/license/gpl-3-0/])**
 
 ## Contact
 

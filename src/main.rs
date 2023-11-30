@@ -1,6 +1,6 @@
 // Code: Cyberdevel-rs
 // Copyright: Cyberdevel, 2023
-// License: MIT
+// License: AGPL-3.0
 
 use iced::{
     Application, Command, Container, Element, Length, Settings, Text,
